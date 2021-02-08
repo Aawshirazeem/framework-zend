@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="702ae520-77a4-4db7-af1a-5fabf48eabe9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/update-gitignore.php" beforeDir="false" />
+    <list default="true" id="702ae520-77a4-4db7-af1a-5fabf48eabe9" name="Default Changelist" comment="changes">
+      <change afterPath="$PROJECT_DIR$/module/User/config/module.config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/User/src/Controller/AuthController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/User/src/Form/Auth/CreateForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/User/src/Module.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/User/view/user/auth/create.phtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/laminas-woxmud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laminas-woxmud.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/autoload/global.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/autoload/global.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/modules.config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/modules.config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module/Application/src/Controller/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Application/src/Controller/IndexController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module/Application/view/layout/layout.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/module/Application/view/layout/layout.phtml" afterDir="false" />
@@ -20,6 +28,12 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
@@ -129,9 +143,13 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
       <path value="$PROJECT_DIR$/vendor/sebastian/version" />
       <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-math" />
     </include_path>
   </component>
   <component name="ProjectId" id="1o3yZORJL96vntpWWZxkvR1Idlj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -140,7 +158,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\laminas-woxmud\module\User\src" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -152,10 +176,49 @@
       <updated>1612529624301</updated>
       <workItem from="1612529625746" duration="4268000" />
       <workItem from="1612779692009" duration="601000" />
+      <workItem from="1612782604437" duration="11384000" />
     </task>
+    <task id="LOCAL-00001" summary="changes">
+      <created>1612782650235</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612782650235</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="309" y="42" key="#Inspections" timestamp="1612794762561">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1612794762561" />
+    <state x="1974" y="28" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612790759845">
+      <screen x="1366" y="-279" width="1680" height="1010" />
+    </state>
+    <state x="1974" y="28" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.-279.1680.1010@1366.-279.1680.1010" timestamp="1612790759845" />
+    <state x="2011" y="-92" key="#com.intellij.ide.util.MemberChooser" timestamp="1612789403843">
+      <screen x="1366" y="-279" width="1680" height="1010" />
+    </state>
+    <state x="2011" y="-92" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.-279.1680.1010@1366.-279.1680.1010" timestamp="1612789403843" />
+    <state x="1831" y="-206" key="CommitChangelistDialog2" timestamp="1612785884845">
+      <screen x="1366" y="-279" width="1680" height="1010" />
+    </state>
+    <state x="1831" y="-206" key="CommitChangelistDialog2/0.0.1366.728/1366.-279.1680.1010@1366.-279.1680.1010" timestamp="1612785884845" />
+    <state x="2040" y="149" key="NewPhpFileDialog" timestamp="1612786466300">
+      <screen x="1366" y="-279" width="1680" height="1010" />
+    </state>
+    <state x="2040" y="149" key="NewPhpFileDialog/0.0.1366.728/1366.-279.1680.1010@1366.-279.1680.1010" timestamp="1612786466300" />
+    <state x="1798" y="-41" key="Vcs.Push.Dialog.v2" timestamp="1612785858217">
+      <screen x="1366" y="-279" width="1680" height="1010" />
+    </state>
+    <state x="1798" y="-41" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-279.1680.1010@1366.-279.1680.1010" timestamp="1612785858217" />
   </component>
 </project>
