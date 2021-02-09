@@ -35,6 +35,9 @@ class UsersTable extends AbstractTableGateway{
         $this->initialize();
     }
 
+    //TODO : Fetch Record by Email method Start.
+    //Bis später :-)
+
     public function getLoginFormInputFilter(){
         $inputFilter = new InputFilter();
         $inputFilterFactory = new Factory();
