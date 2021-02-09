@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="702ae520-77a4-4db7-af1a-5fabf48eabe9" name="Default Changelist" comment="new module">
-      <change beforePath="$PROJECT_DIR$/module/User/config/module.config.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/User/config/module.config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/User/src/Model/Table/UsersTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/User/src/Model/Table/UsersTable.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612879986538</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="new module">
+      <created>1612880033113</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1612880033113</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,12 +300,12 @@
     <state x="2040" y="149" key="NewPhpFileDialog/0.0.1366.728/1366.-279.1680.1010@1366.-279.1680.1010" timestamp="1612786466300" />
     <state x="548" y="308" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1612813072240" />
     <state x="770" y="491" key="NewPhpFileDialog/0.0.1920.1160/-1920.124.1920.1040@0.0.1920.1160" timestamp="1612878284216" />
-    <state x="493" y="274" key="Vcs.Push.Dialog.v2" timestamp="1612880010628">
+    <state x="493" y="274" key="Vcs.Push.Dialog.v2" timestamp="1612880037787">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="1798" y="-41" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-279.1680.1010@1366.-279.1680.1010" timestamp="1612785858217" />
     <state x="351" y="172" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612812165258" />
-    <state x="493" y="274" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.124.1920.1040@0.0.1920.1160" timestamp="1612880010628" />
+    <state x="493" y="274" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.124.1920.1040@0.0.1920.1160" timestamp="1612880037787" />
     <state x="486" y="78" width="945" height="1081" key="search.everywhere.popup" timestamp="1612867082376">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
