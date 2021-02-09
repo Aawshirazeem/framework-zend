@@ -58,7 +58,7 @@ class CreateForm extends Form{
             'type' => Element\Email::class,
             'name' => 'email',
             'options' =>[
-                'label' => 'mail Address'
+                'label' => 'Email Address'
             ],
             'attributes' => [
                 'required' =>true,
@@ -129,7 +129,7 @@ class CreateForm extends Form{
         ]);
 
 
-        //Verify Email field
+        //Password field
         $this->add([
             'type' => Element\Password::class,
             'name' => 'password',
@@ -148,7 +148,7 @@ class CreateForm extends Form{
             ],
         ]);
 
-        //Verify Email field
+        //Verify Password field
         $this->add([
             'type' => Element\Password::class,
             'name' => 'confirm_password',
