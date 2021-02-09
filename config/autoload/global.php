@@ -29,7 +29,7 @@ return [
     ],
     'db' =>[
         'driver' => 'Pdo',
-        'dsn' => 'mysql:dbname=quiz;hostname=http://laminas-edu.com/',
+        'dsn' => 'mysql:dbname=quiz;hostname=localhost',
         'driver_options' => [
             PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8\'',
         ],
