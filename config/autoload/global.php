@@ -29,9 +29,9 @@ return [
     ],
     'db' =>[
         'driver' => 'Pdo',
-        'dsn' => 'mysql:dbname=quiz;hostname=localhost',
+        'dsn' => 'mysql:dbname=quiz;hostname=http://laminas-edu.com/',
         'driver_options' => [
-            PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF-8\'',
+            PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8\'',
         ],
     ],
 ];

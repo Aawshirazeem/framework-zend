@@ -7,6 +7,7 @@ namespace User;
 use Laminas\Router\Http\Literal;
 use Laminas\ServiceManager\Factory\InvokableFactory;
 use User\Controller\AuthController;
+use User\Controller\Factories\AuthControllerFactory;
 
 return [
     'router' => [
@@ -26,7 +27,7 @@ return [
 
     'controllers' =>[
         'factories' => [
-            AuthController::class => InvokableFactory::class,
+            AuthController::class => AuthControllerFactory::class,
         ],
     ],
 

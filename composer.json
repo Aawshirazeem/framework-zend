@@ -26,7 +26,9 @@
         "laminas/laminas-psr7bridge": "^1.2.0",
         "laminas/laminas-session": "^2.9.1",
         "laminas/laminas-di": "^3.1.1",
-        "laminas/laminas-math": "^3.3"
+        "laminas/laminas-math": "^3.3",
+        "laminas/laminas-crypt": "^3.3",
+        "laminas/laminas-mvc-plugin-flashmessenger": "^1.2"
     },
     "autoload": {
         "psr-4": {
