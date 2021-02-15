@@ -19,15 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="702ae520-77a4-4db7-af1a-5fabf48eabe9" name="Default Changelist" comment="TODO">
-      <change afterPath="$PROJECT_DIR$/module/User/src/Model/Entity/UserEntity.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_09_02_2021_15_10__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_09_02_2021_15_10__Default_Changelist_.xml" afterDir="false" />
+    <list default="true" id="702ae520-77a4-4db7-af1a-5fabf48eabe9" name="Default Changelist" comment="Login weiter">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/User/config/module.config.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/User/config/module.config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/User/src/Controller/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/User/src/Controller/AuthController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/User/src/Controller/Factories/LoginControllerFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/User/src/Controller/Factories/LoginControllerFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/User/src/Controller/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/User/src/Controller/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/User/src/Model/Table/UsersTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/User/src/Model/Table/UsersTable.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,6 +183,7 @@
       <workItem from="1612529625746" duration="4268000" />
       <workItem from="1612779692009" duration="601000" />
       <workItem from="1612782604437" duration="21388000" />
+      <workItem from="1613387570756" duration="84000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <created>1612782650235</created>
@@ -204,18 +199,35 @@
       <option name="project" value="LOCAL" />
       <updated>1612812151792</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Login weiter">
+      <created>1613387509310</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613387509310</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes" />
+    <MESSAGE value="Login weiter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login weiter" />
   </component>
   <component name="WindowStateProjectService">
     <state x="309" y="42" key="#Inspections" timestamp="1612794762561">
@@ -254,11 +266,12 @@
     </state>
     <state x="2040" y="149" key="NewPhpFileDialog/0.0.1366.728/1366.-279.1680.1010@1366.-279.1680.1010" timestamp="1612786466300" />
     <state x="548" y="308" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1612813072240" />
-    <state x="351" y="172" key="Vcs.Push.Dialog.v2" timestamp="1612812165258">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="493" y="274" key="Vcs.Push.Dialog.v2" timestamp="1613387518768">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="1798" y="-41" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-279.1680.1010@1366.-279.1680.1010" timestamp="1612785858217" />
     <state x="351" y="172" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612812165258" />
+    <state x="493" y="274" key="Vcs.Push.Dialog.v2/0.0.1920.1160@0.0.1920.1160" timestamp="1613387518768" />
     <state x="777" y="493" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1613378684184">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
