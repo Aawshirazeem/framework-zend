@@ -20,6 +20,7 @@ class AuthController extends AbstractActionController{
         $this->usersTable = $usersTable;
     }
 
+    //Sign Up Create Action
     public function CreateAction(){
         $auth = new AuthenticationService();
 
@@ -33,7 +34,7 @@ class AuthController extends AbstractActionController{
         $request = $this->getRequest();
         if($request->isPost()){
             $formData = $request->getPost()->toArray();
-            $createform->setInputFilter($this->usersTable->setCreateInputFilter());
+            $createform->setInputFilter($this->usersTable->getCreateInputFilter());
             $createform->setData($formData);
 
             if($createform->isValid()){

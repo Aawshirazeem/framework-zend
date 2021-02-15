@@ -35,9 +35,12 @@ class UsersTable extends AbstractTableGateway{
         $this->initialize();
     }
 
-    //TODO : Fetch Record by Email method Start.
-    //Bis später :-)
+    public function fetchAccountByEmail(string $email){
 
+        $sqlQuery = $this->sql->select();
+    }
+
+    //Login form Input Filters
     public function getLoginFormInputFilter(){
         $inputFilter = new InputFilter();
         $inputFilterFactory = new Factory();
@@ -166,7 +169,10 @@ class UsersTable extends AbstractTableGateway{
 
         return $inputFilter;
     }
-    public function setCreateInputFilter(){
+
+
+    //Sign Up form Input Filters
+    public function getCreateInputFilter(){
         $inputFilter = new InputFilter();
         $inputFilterFactory = new Factory();
 
@@ -439,6 +445,7 @@ class UsersTable extends AbstractTableGateway{
         return $inputFilter;
     }
 
+    //Sign Up data insert
     public function saveAccount(array $data){
         $timeNow = date('Y-m-d H:i:s');
         $values = [
@@ -458,6 +465,7 @@ class UsersTable extends AbstractTableGateway{
         return $sqlStmt->execute();
     }
 
+    //Role assign called in saveAccount(); funciton
     private function assignRoleId()
     {
         $sqlQuery = $this->sql->select()->where(['role_id' => 1]);

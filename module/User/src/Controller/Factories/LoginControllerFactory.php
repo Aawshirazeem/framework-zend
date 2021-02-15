@@ -6,7 +6,7 @@ namespace User\Controller\Factories;
 
 ;
 
-use Interop\Container\Exception\ContainerException;
+use    Interop\Container\Exception\ContainerException;
 use Laminas\Db\Adapter\Adapter;
 use Laminas\ServiceManager\Exception\ServiceNotCreatedException;
 use Laminas\ServiceManager\Exception\ServiceNotFoundException;

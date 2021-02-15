@@ -41,7 +41,6 @@ return [
         'factories' => [
             AuthController::class => AuthControllerFactory::class,
             LoginController::class => LoginControllerFactory::class,
-
         ],
     ],
 
