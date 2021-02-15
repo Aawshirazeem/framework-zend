@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="702ae520-77a4-4db7-af1a-5fabf48eabe9" name="Default Changelist" comment="Login weiter">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="702ae520-77a4-4db7-af1a-5fabf48eabe9" name="Default Changelist" comment="Login weiter" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -186,7 +183,7 @@
       <workItem from="1613387570756" duration="171000" />
       <workItem from="1613387759088" duration="75000" />
       <workItem from="1613387842771" duration="97000" />
-      <workItem from="1613387946923" duration="52000" />
+      <workItem from="1613387946923" duration="68000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <created>1612782650235</created>
@@ -237,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613387922501</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Login weiter">
+      <created>1613388011745</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1613388011745</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,9 +261,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changes" />
-    <MESSAGE value="Login weiter" />
     <MESSAGE value="idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="idea" />
+    <MESSAGE value="Login weiter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login weiter" />
   </component>
   <component name="WindowStateProjectService">
     <state x="309" y="42" key="#Inspections" timestamp="1612794762561">
